@@ -58,11 +58,11 @@ createShortcute() {
     sudo cp run.sh /usr/bin/sicoobnet.sh
 
     if [ -d $HOME/Desktop ]; then
-      echo -e shortcute >> $HOME/Desktop
+      echo -e "[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/.wine/drive_c/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;" >> $HOME/Desktop/Sicoobnet.desktop
     fi
 
     if [ -d "$HOME/Área de Trabalho" ]; then
-      echo -e shortcute >> $HOME/Desktop
+      echo -e "[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/.wine/drive_c/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;" >> "$HOME/Área de Trabalho/Sicoobnet.desktop"
     fi
 
   fi
