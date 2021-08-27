@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=SicoobNet
+GenericName=Gerenciador Financeiro SicoobNet
+GenericName[fil]=Gerenciador Financeiro SicoobNet
+Comment=Gerenciador Financeiro SicoobNet
+Exec=/usr/bin/sicoobnet.sh
+Terminal=false
+Icon=/home/username/.wine/drive_c/Sicoobnet/SicoobEmp001.ico
+Type=Application
+Categories=restart;Finance;
