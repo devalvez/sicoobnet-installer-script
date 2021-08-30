@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -a /usr/bin/wine ];
 then
   if [ -a $HOME/.wine/drive_c/Sicoobnet/office.exe ];
