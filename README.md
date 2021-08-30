@@ -1,11 +1,11 @@
 # sicoobnet-installer-script
 Shell Script para instalação do **Sicoobnet Empresarial** no **Linux**
 
-- [Introdução]("#introduction")
-- [Requisitos]("#rquirements")
-- [Baixando o Script]("#Downloads")
-- [Instalação]("#install")
-- [Desinstalar]("#uninstall")
+- [Introdução](#introduction)
+- [Requisitos](#requirements)
+- [Baixando o Script](#downloads)
+- [Instalação](#install)
+- [Desinstalar](#uninstall)
 
 <a id="introduction"></a>
 ## Introdução
