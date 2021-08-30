@@ -5,7 +5,7 @@ echo "------------------------------------"
 echo -e "\nVerificando distribuição..."
 hostnamectl
 basearch=('arch')
-basedebian=('Mint' 'Debian' 'debian' 'Ubuntu', 'ubuntu')
+basedebian=('Mint' 'Debian' 'debian' 'Ubuntu' 'ubuntu')
 
 parsebasearch() {
   sudo pacman -Sy
@@ -22,7 +22,7 @@ parsebasedebian() {
     # Adiona o PPA correspondente a distribução.
     if hostnamectl | grep "Ubuntu 21.04"; then
       sudo add-apt-repository deb 'https://dl.winehq.org/wine-builds/ubuntu/ hirsute main'
-    elif hostnamectl | grep "Ubuntu 20.10";
+    elif hostnamectl | grep "Ubuntu 20.10"; then
       sudo add-apt-repository deb 'https://dl.winehq.org/wine-builds/ubuntu/ groovy main'
     elif hostnamectl | grep "Ubuntu 20.04" || hostnamectl | "Linux Mint 20"; then
       sudo add-apt-repository deb 'https://dl.winehq.org/wine-builds/ubuntu/ focal main'
