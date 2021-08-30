@@ -19,7 +19,7 @@ parsebasedebian() {
     sudo dpkg --add-architecture i386
     wget -nc https://dl.winehq.org/wine-builds/winehq.key
     sudo apt-key add winehq.key
-
+    # Adiona o PPA correspondente a distribução.
     if hostnamectl | grep "Ubuntu 21.04"; then
       sudo add-apt-repository deb 'https://dl.winehq.org/wine-builds/ubuntu/ hirsute main'
     elif hostnamectl | grep "Ubuntu 20.10";
@@ -67,7 +67,6 @@ checkSicoobnetInstallation() {
     false
   fi
 }
-
 
 createShortcute() {
   shortcute="[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/.wine/drive_c/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;"
