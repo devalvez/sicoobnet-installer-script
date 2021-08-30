@@ -19,8 +19,8 @@ Inicialmente o intuito era somente de ajudar um amigo, mas no video que subi no 
 
 Para que o programa rode precisaremos de algums programas adicionais:
 
-- [OpenJDK]("https://openjdk.java.net/install") -- Instalação manual
-- [Wine]("https://wiki.winehq.org/Download") -- O script tetará instalar
+- [OpenJDK](https://openjdk.java.net/install) -- Instalação manual
+- [Wine](https://wiki.winehq.org/Download) -- O script tetará instalar
 
 Considere instalar o `wine-mono` e o `wine-gecko`.
 
