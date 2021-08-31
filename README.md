@@ -34,8 +34,10 @@ Para fazer o download do script é bem simples. Basicamente exite duas formas de
 
 Primeiro pressione _Ctrl + Alt + t_
 para abrir um terminal ou navegue pelo menu de programas.
+
 Caso utilize **Arch, Manjaro ou Antergos**  execute no terminal o comando:
 > sudo pacman -S git
+
 Caso Utilize **Ubuntu** ou **LinuxMint** execute o comando:
 > sudo apt update && sudo apt install git -y
 

@@ -69,7 +69,7 @@ checkSicoobnetInstallation() {
 }
 
 createShortcute() {
-		shortcute="[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/.wine/drive_c/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;"
+		shortcute="[Desktop Entry]\nVersion=1.0\nName=Sicoobnet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/.wine/drive_c/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;"
 		if checkSicoobnetInstallation;
 		then
 				
@@ -87,7 +87,7 @@ createShortcute() {
 }
 
 runSicoobnetInstaller() {
-		echo "\n\033[01mIniciando instalação...\n\033[00m"
+		echo -e "\n\033[01mIniciando instalação...\n\033[00m"
 		wine $HOME/sicoobnet-installer/instalador-sicoobnet-windows-amd64.exe
 
 		if checkSicoobnetInstallation;
